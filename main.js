@@ -9,7 +9,7 @@ $("body").on("change", ".filter", function (e) {
 
 	const food_type = $this_filter.val();
 
-	//const filer = $(this).val();//
+	//const filter = $(this).val(); //
 	//can also use above, another kind of chaining//
 
 	console.log("Food type " + food_type)
